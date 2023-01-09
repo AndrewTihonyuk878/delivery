@@ -1,0 +1,36 @@
+.cooperation {
+    padding: 50px 0 0 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        margin-top: 33px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__item {
+        width: 250px;
+        text-align: center;
+        margin-bottom: 46px;
+    }
+    &__img {
+        width: 50px;
+        height: 49px;
+        margin: 0 auto;
+        img {
+            object-fit: fill;
+        }
+    }
+    &__title {
+        margin-top: 12px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        color: #ec644b;
+    }
+    &__descr {
+        font-size: 14px;
+        color: #3a3a3a;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+}

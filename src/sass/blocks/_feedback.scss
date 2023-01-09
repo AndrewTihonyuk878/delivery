@@ -1,0 +1,89 @@
+.feedback {
+    padding: 50px 0 65px 0;
+    height: 100%;
+    
+    &__carousel {
+        width: 1140px;
+        margin: 0 auto;
+        margin-top: 50px;
+        position: relative;
+        &-item {
+            width: 600px;
+            margin: 0 40px;
+            text-align: start;
+        }
+        &-title {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #3a3a3a;
+        }
+        &-descr {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &-img {
+            margin: 0 auto;
+            width: 114px;
+            height: 114px;
+            img {
+                object-fit: fill;
+            }
+        }
+    }
+}
+
+.feedback__carousel .slick-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    width: 30px;
+    height: 50px;
+    border: none;
+}
+
+.feedback__carousel .slick-prev {
+    z-index: 10;
+    left: -30px;
+    background: url("../../icons/left.svg") 0 0 no-repeat;
+}
+
+.feedback__carousel .slick-next {
+    right: -50px;
+    background: url("../../icons/right.svg") 0 0 no-repeat;
+}
+
+.feedback__carousel .slick-dots {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback__carousel .slick-dots li {
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+.feedback__carousel .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.feedback__carousel .slick-dots li.slick-active button {
+    background-color: black;
+    border: 1px solid #fff; 
+}
+
+.feedback__carousel .slick-slide {
+    opacity: .3;
+}
+
+.feedback__carousel .slick-current {
+    opacity: 1;
+}

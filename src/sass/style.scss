@@ -1,0 +1,74 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/slick.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@import 'base/variables';
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.title {
+	text-align: center;
+	line-height: 23px;
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #2e2e2e;
+}
+.descr_section {
+	font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #2e2e2e;
+    text-align: center;
+    margin-top: 17px;
+}
+.title_subsection {
+	font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+.info_subsection {
+	width: 985px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #ffffff;
+}
+.divider {
+	width: 148px;
+    border: 1px solid $main-color;
+    margin: 20px auto 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/btns';
+@import 'blocks/benefits';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/cooperation';
+@import 'blocks/feedback';
+@import 'blocks/question.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/popup';
+
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
